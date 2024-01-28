@@ -30,4 +30,4 @@ class UniPerson extends Person {
   }
 }
 
-export default UniPerson;
+module.exports = UniPerson;

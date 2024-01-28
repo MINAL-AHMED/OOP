@@ -30,4 +30,4 @@ class Guardian extends Person {
   }
 }
 
-export default Guardian;
+module.exports = Guardian;
