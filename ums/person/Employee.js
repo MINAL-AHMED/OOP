@@ -20,8 +20,9 @@ class Employee extends UniPerson {
     this[_salary] = value;
   }
   toString() {
-    super.toString();
-    console.log(`EmployeeId = ${this[_employeeId]}, Salary = ${this[_salary]}`);
+    return `${super.toString()} EmployeeId = ${this[_employeeId]}, Salary = ${
+      this[_salary]
+    }`;
   }
 }
 
