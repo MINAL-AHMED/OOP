@@ -6,7 +6,7 @@ const _country = Symbol("country");
 const _postalCode = Symbol("postalCode");
 
 class Address {
-  constructor(id, roadNo, city, region, country, postalCode) {
+  constructor({ id, roadNo, city, region, country, postalCode }) {
     this[_id] = id;
     this[_roadNo] = roadNo || " ";
     this[_city] = city || "";
